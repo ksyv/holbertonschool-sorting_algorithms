@@ -22,6 +22,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void swap(listint_t **h, listint_t **n1, listint_t *n2);
+void swapIntegers(int *sortInteger, int *unsortInteger);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 int lomutoPartition(int *array, size_t size, int left, int right);
